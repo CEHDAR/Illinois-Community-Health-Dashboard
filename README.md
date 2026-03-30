@@ -47,7 +47,7 @@ This repository contains the application code and the processed data file needed
 1. Clone the repository:
  
 ```bash
-git clone https://github.com/ADDRESS](https://github.com/CEHDAR/Illinois-Community-Health-Dashboard.git
+git clone https://github.com/CEHDAR/Illinois-Community-Health-Dashboard.git
 ```
  
 2. Install required R packages:
@@ -68,7 +68,7 @@ shiny::runApp()
  
 ## License
  
-Code in this repository is licensed under the [GNU Affero General Public License v3.0 (AGPL-3.0)](LICENSE.md).
+Code in this repository is licensed under the [GNU Affero General Public License v3.0 (AGPL-3.0)](LICENSE)
  
 ---
  
