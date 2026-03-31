@@ -48,6 +48,7 @@ This repository contains the application code and the processed data file needed
  
 ```bash
 git clone https://github.com/CEHDAR/Illinois-Community-Health-Dashboard.git
+cd Illinois-Community-Health-Dashboard
 ```
  
 2. Install required R packages:
