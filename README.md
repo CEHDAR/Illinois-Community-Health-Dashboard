@@ -16,7 +16,11 @@ Users can view and interact with maps and data directly in the browser. Key inte
 - **Indicator selection:** Use drop-down menus above the map to select different variables for display.
 - **County-level exploration:** View county-level bar charts to compare conditions across counties.
 
-![dashboard](https://github.com/user-attachments/assets/22b0234f-b8b8-4050-add8-07be001b14dc)
+---
+
+## Demo
+
+![cehdar](https://github.com/user-attachments/assets/d4c56782-6770-4a72-9ba3-3e59f7a1917f)
 
 ---
 
