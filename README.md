@@ -15,7 +15,9 @@ Users can view and interact with maps and data directly in the browser. Key inte
 - **Tract-level inspection:** Click on any census tract to display comprehensive information in a side panel, including state averages for comparison.
 - **Indicator selection:** Use drop-down menus above the map to select different variables for display.
 - **County-level exploration:** View county-level bar charts to compare conditions across counties.
- 
+
+![dashboard](https://github.com/user-attachments/assets/22b0234f-b8b8-4050-add8-07be001b14dc)
+
 ---
 
  ## Data Sources
