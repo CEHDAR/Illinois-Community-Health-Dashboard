@@ -81,4 +81,4 @@ Code in this repository is licensed under the [GNU Affero General Public License
  
 ## Citation
  
-Gounder, B. & Cho, S. (2026). CEHDAR and the Illinois Community Health Dashboard: Communicating Environmental and Public Health Data with Interactive Geospatial Maps for Community Access. Zenodo. DOI
+Gounder, B. & Cho, S. (2026). *CEHDAR and the Illinois Community Health Dashboard: Communicating Environmental and Public Health Data with Interactive Geospatial Maps for Community Access*. Zenodo. https://doi.org/10.5281/zenodo.19441572
