@@ -391,7 +391,7 @@ tab5d_ui <- tabPanel("Web App Information",
                          hr(),
                          
                          p(strong("Citation Information:"), br(), "This Illinois Community Health dashboard can be cited by using the following information and DOI, which represents all stable versions released and the link resolving to the latest version:"),
-                         p(style = "text-align: center;", "Gounder, B. & Cho, S. (2026).", tags$em("CEHDAR and the Illinois Community Health Dashboard: Communicating Environmental and Public Health Data with Interactive Geospatial Maps for Community Access."), "Zenodo. DOI:"),
+                         p(style = "text-align: center;", "Gounder, B. & Cho, S. (2026).", tags$em("CEHDAR and the Illinois Community Health Dashboard: Communicating Environmental and Public Health Data with Interactive Geospatial Maps for Community Access."), "Zenodo. https://doi.org/10.5281/zenodo.19441572"),
                          hr(),
                          
                          tags$p(style = "font-size: 13px; color: gray; margin-top: 20px;",
