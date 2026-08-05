@@ -131,7 +131,7 @@ tab2_ui <- tabPanel("Environmental Exposures",
                                                 "Number of High Air Pollution Days" = "exceed"),
                                     selected = "E_HOUAGE"),
                         br(),
-                        h5(strong("Environmental Exposures", style = "color:666666;")),
+                        h5(strong("Environmental Exposures", style = "color:#666;")),
                         fluidRow(withSpinner(leafletOutput("map_environment"), type = 1, color = spinner_color)),
                         br(),
                       selectInput("color_1", "Historically Marginalized & Socially Categorized Populations:",
@@ -146,7 +146,7 @@ tab2_ui <- tabPanel("Environmental Exposures",
                                               "Percent of renters" = "E_RENTER"),
                                   selected = "E_AGE17"),
                       br(),
-                      h5(strong("Population Group", style = "color:999999;")),
+                      h5(strong("Population Group", style = "color:#999;")),
                       fluidRow(withSpinner(leafletOutput("map_1"), type = 1, color = spinner_color))
                     )))
 
@@ -637,7 +637,11 @@ tab1_server <- function(input, output, session) {
     rownames(population_data) <- NULL
     
     population_data <- as.data.frame(population_data)
-    population_data$Population <- pop_labels[population_data$Population]
+    population_data$Population <- factor(
+      population_data$Population,
+      levels = names(pop_labels),
+      labels = unname(pop_labels)
+    )
     population_data$CountyAvg <- as.numeric(state_avg)
     
     plot_ly(data = as.data.frame(population_data), x = ~Population, y = ~as.numeric(Percentage), type = 'bar', color = ~Population, colors = "Dark2",
@@ -1412,7 +1416,7 @@ tab4_server <- function(input, output, session) {
     
     state_avg <- colMeans(county_avgs[, -1], na.rm = TRUE)
     
-    health_data <- t(health_data)
+    health_data <- colMeans(health_data)
     health_data <- as.data.frame(health_data)
     health_data <- cbind(Category = rownames(health_data), Percentage = health_data[, 1])
     rownames(health_data) <- NULL
