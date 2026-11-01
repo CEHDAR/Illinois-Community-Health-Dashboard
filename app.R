@@ -383,7 +383,7 @@ tab5d_ui <- tabPanel("Web App Information",
 
                          h4(icon("info"), "Web App Information"),
                          
-                         p(strong("Current Release Version:"), "1.1 Acorn (March 2026)"),
+                         p(strong("Current Release Version:"), "1.2 (November 2026)"),
                          div("Incubated as a SDOH & Place project"),
                          div("Developed as an Engagement Resource for the University YMCA UIUC community"),
                          div("Piloted for Illinois communities by the Community Environmental Health Data Access and Research (CEHDAR) Working Group"),
